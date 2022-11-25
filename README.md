@@ -30,6 +30,8 @@ npm install dy-node-ip2region --save
 const searcher = require('dy-node-ip2region').create();
 searcher.binarySearchSync('xxx.xxx.xxx.xxx')
 // => { city: 2163, region: '中国|亚洲|广东省|深圳市|联通' }
+
+这边推荐使用searcher.memorySearchSync方法，更准确
 ```
 
 *以下是原readme内容*
