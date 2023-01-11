@@ -1,6 +1,6 @@
 # nodejs 客户端
 
-度言官方维护的 ip2region, 每次数据更新后会更新到 npm (目前ipregion.db比原始的Ip2region大近一倍，数据更全面准确)
+度言官方维护的 ip2region, 每次数据更新后会更新到 npm (目前ipregion.db比原始的Ip2region大近一倍，数据更全面准确，解析IP推荐使用memorySearchSync方法)
 ### 因为原作者仓库的ip信息许久未更新
 
 #### 这里主要是有两个文件ip.merge.txt和一个ip2region.db 这两个文件目前都是最新版，文件更新也会同时上传这两份文件，有需要自己添加可以自行添加到ip.merge.txt 然后通过我下面发的链接进行转成.db文件
